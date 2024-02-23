@@ -318,3 +318,15 @@ nginx:x:991:991:Nginx web server:/var/lib/nginx:/sbin/nologin
 - rw-r--r--. 1 root root 39 Feb 14 16:05 index.html
 
 🌞 Adapter la conf NGINX
+
+- [quentin@node1 nginx]$ sudo touch nginx.conf1
+
+- [quentin@node1 nginx]$
+      
+      server {
+
+      listen 19999;
+
+      root/var/www/tp3_linux;
+      }
+
